@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.every-comment{
+  background-color: gray;
+  list-style-type:none;
+  margin:5px;
+  display: flex;
+  justify-content: space-between
+};
+
+.disabled{
+  background-color: rgb(28, 28, 134);
+}
+
+.post{
+  background-color:rgb(150, 97, 97);
+  width:95%;
+  margin:10px 0px
+}
+
+.post-title{
+  font-size: 15px;
+  background-color: rgb(185, 179, 179);
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 0 0 20px 0;
+  margin: 0px;
+}
+
+.post-rate{
+  color:green;
+  font-weight: 200 bold;
+}
+
+.list-of-postes{
+  width: 60%;
+}
+
+.container{
+  width: 39%;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+.disabled{
+  background-color: rgb(28, 28, 134);
+  width: 95%;
+}
+
+.container-column1{
+  width: 95%;
+  height: 250px;
+  border:1px solid red
+}
+
+.container-column2{
+  width: 95%;
+  height: 250px;
+  border:1px solid red
+}
+
+.show-buttons{
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(109, 109, 155)
+}
+
+.remove-post{
+  color:green;
+  background-color:white
+}
+
+.show-post{
+  color:green;
+  background-color:white
+}
+
+.show-post-descending{
+  color:green;
+  background-color:white
+}
+
+.show-post-ascending{
+  color:green;
+  background-color:white
+}
+
+.show-post-title{
+  margin:0px;
+  padding:0px;
+  font-size: 24px;
+  color:white
+}
+
+.highest-rate-comments{
+  position: relative;
+  background-color:rgb(236, 61, 61);
+  border: .5px solid red;
+  margin:3px;
+  display: flex;
+  justify-content:space-evenly;
+  border-radius: 5px;
+  height: 30px;
+  align-items: center;
+}
+
+.highest-rate-comments-list{
+  list-style-type: none;
+  position:absolute;
+  left: 3%;
+}
+
+.highest-rate-comments-button-delete{
+  position:absolute;
+  right: 2%;
+}
+
+.highest-rate-comments-list-rate{
+  position:absolute;
+  right: 20%;
+}
+
+.active-page {
+  color: blue;
+}
+
+.child-comment {
+  margin-left: 20px;
+  background-color: #aba2a2;
+}
